@@ -8,7 +8,7 @@ from glob import glob
 plt.rcParams["figure.figsize"] = (10,8)
 
 # set data path for break test session
-session_folder_path = Path(r"/Users/Philip/Documents/BreakTests/Dyneemite") #set this to the folder containing your "CSVs" folder
+session_folder_path = Path(r"YOUR PATH HERE") #set this to the folder containing your "CSVs" folder
 
 # get folder path for CSV/TSV files
 csv_data_folder_name = "CSVs" #if you change the name of the subfolder containing your CSV info, change this to match
